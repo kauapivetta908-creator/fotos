@@ -1,0 +1,18 @@
+ body {
+      background-color: rgb(85, 153, 255)
+ }
+  .caixa{   
+display: flex;
+ background-color: #ffffff; 
+      padding: 20px;
+      border: 1px solid #178d83;
+      width: 300px;
+      margin: 20px auto;
+  }
+  body {
+      font-family: 'Courier New', Courier, monospace Arial, sans-serif; /* Define a fonte para todo o corpo da página */
+    }
+
+    .titulo {
+      font-family: 'Courier New', monospace; /* Define uma fonte diferente para este título */
+    }

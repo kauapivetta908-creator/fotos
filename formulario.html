@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro do Bebê</title>
+  <style>
+      body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f4f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .section-title {
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #333;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <h1>Formulário de Cadastro do Bebê</h1>
+
+  <form action="#" method="post">
+    <div class="section-title">Informações do Bebê</div>
+
+    <label>Nome completo:</label>
+    <input type="text" name="nome_bebe" required>
+
+    <label>Data de nascimento:</label>
+    <input type="date" name="data_nascimento" required>
+
+    <label>Hora de nascimento:</label>
+    <input type="time" name="hora_nascimento">
+
+    <label>Sexo:</label>
+    <select name="sexo">
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+    </select>
+
+    <label>Peso ao nascer (kg):</label>
+    <input type="number" name="peso" step="0.01">
+
+    <label>Altura ao nascer (cm):</label>
+    <input type="number" name="altura" step="0.1">
+
+    <label>Tipo sanguíneo:</label>
+    <input type="text" name="tipo_sanguineo">
+
+    <label>Local de nascimento:</label>
+    <input type="text" name="local_nascimento">
+
+    <label>Cidade/Estado:</label>
+    <input type="text" name="cidade_estado">
+
+    <label>Nº do Cartão SUS:</label>
+    <input type="text" name="cartao_sus">
+    
+</body>
+</html>
